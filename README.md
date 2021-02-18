@@ -17,6 +17,8 @@ Build OpenWrt using GitHub Actions
 ## Usage
 
 - Click the [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) button to create a new repository.
+- 通过修改diypart1.sh文件修改feeds.conf.default配置。fw876/helloworld.
+- 通过修改diypart2.sh文件可以自定义默认IP，登陆密码等。不需要更改的加#注释就可以.
 - Generate `.config` files using [Lean's OpenWrt](https://github.com/coolsnowwolf/lede) source code. ( You can change it through environment variables in the workflow file. )
 - Push `.config` file to the GitHub repository.
 - Select `Build OpenWrt` on the Actions page.
