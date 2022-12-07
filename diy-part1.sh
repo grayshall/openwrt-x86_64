@@ -20,5 +20,5 @@ sed -i 'a src-git telephony https://git.openwrt.org/feed/telephony.git' feeds.co
 sed -i 'a src-git freifunk https://github.com/freifunk/openwrt-packages.git' feeds.conf.default
 sed -i 'a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i 'a src-git small https://github.com/kenzok8/small' feeds.conf.default
-sed -i 'a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
+#sed -i 'a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 
